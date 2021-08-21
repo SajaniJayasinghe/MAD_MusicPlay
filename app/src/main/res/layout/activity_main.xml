@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_1_designer_fatal"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="172dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="448dp"
+        android:onClick="play"
+        android:text="@string/btnstr"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="#D6CFE3"
+        app:iconTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="173dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="24dp"
+        android:onClick="pause"
+        android:text="@string/btnP"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="#D6CFE3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="171dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:onClick="stop"
+        android:text="@string/st"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="#D6CFE3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

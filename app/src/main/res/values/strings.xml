@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MediaPlayer2</string>
+    <string name="btns">Start</string>
+    <string name="btnP">Pause</string>
+    <string name="st">Stop</string>
+    <string name="btnstr">Play</string>
+</resources>
